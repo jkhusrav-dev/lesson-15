@@ -1,0 +1,135 @@
+body { 
+    margin: 0; 
+    font-family: "Open Sans", sans-serif; 
+    background-color: #FFFFFF; 
+} 
+ 
+.topnav { 
+    max-width: 1180px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 auto; 
+    gap: 24px; 
+    padding: 24px 0; 
+} 
+ 
+header { 
+    position: relative; 
+} 
+ 
+.navbar { 
+    display: flex; 
+    gap: 70px; 
+    align-items: center; 
+} 
+ 
+.navbar a { 
+    font-size: 17px; 
+    text-decoration: none; 
+    color: #212832; 
+    font-weight: 600; 
+} 
+ 
+.sign-up { 
+    border: 1px solid #212832; 
+    border-radius: 5px; 
+    padding: 10px 24px; 
+    white-space: nowrap; 
+} 
+ 
+.best-dest { 
+    font-weight: 700; 
+    font-size: 20px; 
+    color: rgba(223, 105, 81, 1); 
+    text-transform: uppercase; 
+} 
+ 
+.banner-title { 
+    font-weight: bold; 
+    font-size: 84px; 
+    color: rgba(24, 30, 75, 1); 
+    width: 560px; 
+    line-height: 1; 
+    letter-spacing: -4%; 
+    margin: 0; 
+} 
+ 
+.banner-content { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 24px; 
+} 
+ 
+.banner-description { 
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 30px; 
+    color: #5E6282; 
+    width: 560px; 
+} 
+ 
+.banner { 
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 1180px; 
+    margin: 24px auto; 
+    align-items: center; 
+} 
+ 
+.banner-actions { 
+    display: flex; 
+    gap: 32px; 
+} 
+ 
+.find-more { 
+    width: 170px; 
+    height: 60px; 
+    text-align: center; 
+    font-size: 18px; 
+    color: white; 
+    background-color: #F1A501; 
+    border-radius: 10px; 
+    border: none; 
+    cursor: pointer; 
+ 
+    &:hover { 
+        opacity: 0.9; 
+        box-shadow: 0 5px 20px 0 #F1A501;; 
+    } 
+} 
+ 
+.play-demo { 
+    font-size: 17px; 
+    font-weight: 500; 
+    color: #686D77; 
+    border: none; 
+    padding: 20px 32px; 
+    border-radius: 10px; 
+    cursor: pointer; 
+ 
+    &:hover { 
+        opacity: 0.9; 
+        box-shadow: 0 5px 20px 0 rgb(104 109 119 / 0.75); 
+    } 
+} 
+ 
+.decore { 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    z-index: -1; 
+}
+
+.top {
+    color: gray;
+    margin-left: 750px;
+    font-weight: 900;
+}
+
+.logo-4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 250px;
+}
